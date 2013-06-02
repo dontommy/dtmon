@@ -5,7 +5,7 @@ Created on Jun 1, 2013
 @author: Tommy Maersk
 '''
 import MySQLdb as sql
-db = sql.connect("localhost","root","muaiwqyt","system_info")
+db = sql.connect("HOST","USER","PASS","DB")
 cs = db.cursor()
 
 

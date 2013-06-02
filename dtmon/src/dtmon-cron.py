@@ -9,7 +9,7 @@ import MySQLdb as sql
 import time
 import psutil
 import sys
-db = sql.connect("localhost","root","muaiwqyt","system_info")
+db = sql.connect("HOST","USER","PASS","DB")
 cs = db.cursor()
 
 

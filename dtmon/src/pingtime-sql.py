@@ -41,7 +41,7 @@ theping = pingtime()
 theping2 = pingtime2()
 theping3 = pingtime3()
 thetime = str(time.time())
-db = sql.connect("localhost","root","muaiwqyt","system_info")
+db = sql.connect("HOST","USER","PASS","DB")
 cs = db.cursor()
 
 query = "INSERT INTO pingtimes (pingtime,thetime,thesite) VALUES ('"+theping+"','"+thetime+"','1')"
